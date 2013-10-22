@@ -30,7 +30,7 @@ group :test do
   gem 'growl', '1.0.3'
 
   # Uncomment these lines on Linux.
-  gem 'libnotify' if /linux/ =~ RUBY_PLATFORM
+  gem 'libnotify' #if /linux/ =~ RUBY_PLATFORM
 
   # Uncomment these lines on Windows.
   # gem 'rb-notifu', '0.0.4'
